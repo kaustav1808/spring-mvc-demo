@@ -25,6 +25,10 @@
         <br/><br/>
        Free Pass: <form:input path="freepass" />
        <form:errors path="freepass" cssClass="error"/>
+       
+       <br/><br/>
+       Course Code: <form:input path="coursecode" />
+       <form:errors path="coursecode" cssClass="error"/>
               
        <input type="submit" value="Submit" />
     </form:form>
