@@ -8,5 +8,6 @@
 </head>
 <body>
   The customer is: ${customer.firstName} ${customer.lastName}
+  Free pass acquired: ${ customer.freepass }
 </body>
 </html>

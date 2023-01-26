@@ -20,10 +20,13 @@
        First Name: <form:input path="firstName" />
        <br/><br/>
        Last  Name (*): <form:input path="lastName" />
+       <form:errors path="lastName" cssClass="error"/>
+       
+        <br/><br/>
+       Free Pass: <form:input path="freepass" />
+       <form:errors path="freepass" cssClass="error"/>
               
        <input type="submit" value="Submit" />
-       
-       <form:errors path="lastName" cssClass="error"/>
     </form:form>
 </body>
 </html>
